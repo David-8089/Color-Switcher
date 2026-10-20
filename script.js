@@ -27,7 +27,7 @@ function applyColor() {
   if (typed.length == 7 && typed.charAt(0) == '#') {
     pickColor(typed);
   } else {
-    prompt ('Please enter a valid hex code like #3498db');
+    alart ('Please enter a valid hex code like #3498db');
   }
 }
 
