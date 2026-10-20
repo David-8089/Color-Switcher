@@ -27,11 +27,11 @@ function applyColor() {
   if (typed.length == 7 && typed.charAt(0) == '#') {
     pickColor(typed);
   } else {
-    alert('Please enter a valid hex code like #3498db');
+    prompt ('Please enter a valid hex code like #3498db');
   }
 }
 
-function copyHex() {
-  navigator.clipboard.writeText(hexBox.textContent);
-  alert('Copied ' + hexBox.textContent);
-}
+// function copyHex() {
+//   navigator.clipboard.writeText(hexBox.textContent);
+//   alert('Copied ' + hexBox.textContent);
+// }
